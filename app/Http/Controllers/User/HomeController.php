@@ -32,6 +32,9 @@ class HomeController extends Controller
 
         $commet=new Comment();//initialize comment 
         $commet->name=$request->name;
+        $commet->a=$request->a;
+        $commet->s=$request->s;
+        $commet->n=$request->n;
         $commet->email=$request->email;
         $commet->subject=$request->subject;
         $commet->message=$request->message;

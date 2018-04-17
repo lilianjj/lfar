@@ -1,4 +1,4 @@
-@extends("admin.base.base")
+ artisan @extends("admin.base.base")
 @section('title')
     مدیریت نظرات
 @endsection
@@ -47,6 +47,8 @@
                                             <tr>
                                                 <th class="col-xs-1 text-right">ردیف</th>
                                                 <th class="col-xs-1 text-right">نام</th>
+                                                <th class="col-xs-1 text-right">a</th>
+                                                <th class="col-xs-1 text-right">ماه تولد</th>
                                                 <th class="col-xs-1 text-right">ایمیل</th>
                                                 <th class="col-xs-2 text-right">موضوع </th>
                                                 <th class="col-xs-4 text-right">پیام </th>
@@ -58,6 +60,8 @@
                                                 <tr data-status="" data-id="{{$comment->id}}">
                                                     <td>{{ $loop->iteration }}</td>
                                                     <td data-id="{{$comment->id}}" class="">{{$comment->name}}</td>
+                                                    <td class="">{{$comment->s}}</td>
+                                                    <td class="">{{$comment->a}}</td>
                                                     <td class="">{{$comment->email}}</td>
                                                     <td class="">{{$comment->subject}}</td>
                                                     <td class="">{{$comment->message}}</td>

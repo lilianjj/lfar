@@ -46,11 +46,32 @@
     <form class="form-horizontal" method="POST" action="{{url('/home/post')}}">
         {{ csrf_field() }}
         <div class="form">
+
             <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="نام شما"
                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
                 <div class="validation"></div>
             </div>
+
+            <div class="form-group">
+                <input type="text" name="s" class="form-control" id="s" placeholder=" ماه تولد شما"
+                       data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
+                <div class="validation"></div>
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" name="n" class="form-control" id="n" placeholder="فامیلی شما"
+                       data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
+                <div class="validation"></div>
+            </div>
+            <div class="form-group">
+                <input type="text" name="a" class="form-control" id="a" placeholder="آدرس شما"
+                       data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
+                <div class="validation"></div>
+            </div>
+
+
             <div class="form-group">
                 <input type="email" class="form-control" name="email" id="email" placeholder="ایمیل شما"
                        data-rule="email" data-msg="Please enter a valid email" required/>

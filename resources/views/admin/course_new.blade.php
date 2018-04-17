@@ -36,6 +36,22 @@
                             </div>
                             <div class="row">
                                 <div class="colxs-12 col-md-2 pull-right">
+                                    <label>موضوع :</label>
+                                </div>
+                                <div class="col-xs-12 col-md-10 pull-right">
+                                    <input name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="colxs-12 col-md-2 pull-right">
+                                    <label>مدرس :</label>
+                                </div>
+                                <div class="col-xs-12 col-md-10 pull-right">
+                                    <input name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="colxs-12 col-md-2 pull-right">
                                     <label>تعداد واحد :</label>
                                 </div>
                                 <div class="col-xs-12 col-md-10 pull-right">
